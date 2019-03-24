@@ -105,6 +105,7 @@ class DetailViewController: UIViewController {
         
         let cancel = UIAlertAction(title: "Cancel", style: .destructive) { (action) in
             
+            alert.dismiss(animated: true, completion: nil)
         }
         
         alert.addTextField { (inTextField) in
